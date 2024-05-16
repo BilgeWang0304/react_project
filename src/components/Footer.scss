@@ -1,0 +1,86 @@
+.footer {
+    background: #495e57;
+    color: white;
+    width: 100%;
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+    justify-content: strech;
+  }
+.footer-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1.4fr 1.6fr;;
+  grid-gap: 30px;
+  padding: 30px 0;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  grid-template-areas: "icon guide find social";
+  align-items: center; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-guide, .footer-find, .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+  }
+  
+.footer-logo {
+    grid-area: icon;
+    height: 240px;
+    object-fit: contain;
+  }
+  
+.footer-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0; /* Removes margin to ensure alignment */
+    padding: 10px 0; 
+  }
+
+.footer-guide {
+    grid-area: guide;
+  }
+  
+.footer-find {
+    grid-area: find;
+  }
+  
+.footer-social {
+    grid-area: social;
+  }
+  
+.footer-item {
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: white;
+    display: flex;
+  }
+  
+.footer-item:hover {
+    animation-name: colorChange;
+    animation-duration: 0.5s;
+  }
+  
+@keyframes colorChange {
+    0% {
+      color: white;
+    }
+    100% {
+      color: #f7dc52;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr; /* Stack all columns on smaller screens */
+      grid-template-areas:
+        "icon"
+        "guide"
+        "find"
+        "social";
+    }
+  }
