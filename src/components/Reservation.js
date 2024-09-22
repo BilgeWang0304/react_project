@@ -23,6 +23,7 @@ function Reservation() {
             email,
             mobileNumber,
             specialRequest,}; 
+        console.log("Reservation Data:", reservationData);
     })
 
     return (
@@ -52,7 +53,7 @@ function Reservation() {
                                         />
                                     </label>
                                     <label>
-                                        No Of Guests
+                                        No. Of Guests
                                         <input
                                             type="number"
                                             value={guests}
