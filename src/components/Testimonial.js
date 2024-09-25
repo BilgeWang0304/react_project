@@ -24,9 +24,7 @@ const Testimonials = () => {
                 <Star />
               </span>
               <div className="text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Assumenda aliquid expedita non fugit qui laudantium facere iure
-                culpa alias esse.
+              The flavors at this Mediterranean restaurant are absolutely authentic and vibrant! Every dish feels like a trip to the Mediterranean coast—so fresh and beautifully seasoned.
               </div>
             </div>
             <div className="flex-item">
@@ -42,9 +40,7 @@ const Testimonials = () => {
                 <Star />
               </span>
               <div className="text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Assumenda aliquid expedita non fugit qui laudantium facere iure
-                culpa alias esse.
+              This Mediterranean gem is a feast for the senses! The fragrant herbs, tender meats, and fresh veggies blend perfectly in every bite. The grilled octopus and baklava are a revelation—absolutely unforgettable.
               </div>
             </div>
             <div className="flex-item">
@@ -60,9 +56,7 @@ const Testimonials = () => {
                 <Star />
               </span>
               <div className="text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Assumenda aliquid expedita non fugit qui laudantium facere iure
-                culpa alias esse.
+              Every dish here tells a story of the Mediterranean coast. The vibrant, zesty flavors burst with authenticity, from the tangy tzatziki to the perfectly charred kebabs. Pair it with a glass of wine, and you've got the ultimate Mediterranean experience!
               </div>
             </div>
             <div className="flex-item">
@@ -78,9 +72,7 @@ const Testimonials = () => {
                 <Star />
               </span>
               <div className="text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Assumenda aliquid expedita non fugit qui laudantium facere iure
-                culpa alias esse.
+                Dining here feels like being transported to a sun-soaked Greek island. The pita is warm and fluffy, the olives are perfectly briny, and the seafood is the freshest I've had outside of the Mediterranean. A true culinary escape!
               </div>
             </div>
           </div>

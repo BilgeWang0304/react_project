@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 .special {
     position: relative;
-    margin: 0 100px 20px 100px ;
+    margin: 0 50px 20px 50px ;
   }
   
   .special-header {
@@ -12,9 +13,9 @@
   }
   
   .header-title {
-      font-size: 42px;
+      font-size: 48px;
       line-height: 1.2;
-      font-weight: 500;
+      font-family: 'Oswald', sans-serif;
       color: #495e57;
       text-transform: capitalize;
   }

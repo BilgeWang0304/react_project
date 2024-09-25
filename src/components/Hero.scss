@@ -1,48 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
 .hero-background {
   background: #495e57;
-  padding: 40px 60px;
+  padding: 150px 60px 60px;
 }
 
 .hero-container {
-
   display: grid;
-  grid-template-columns: 6fr 4fr; /* Adjust column sizes to give more space to the image */
+  grid-template-columns: 6fr 4fr; 
   align-items: center;
-  gap: 20px; /* Space between text and image */
-  max-width: 1200px; /* Adjust based on your design requirements */
-  margin: auto; /* Center the hero container */
+  gap: 20px; 
+  max-width: 1200px; 
+  margin: auto; 
 }
   
-
-
 .text {
   color: white;
 
-
   .title {
     color: #f4ce14;
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 0.5rem;
+    font-family: 'Oswald', sans-serif;
   }
 
   .location {
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
   }
 
   p {
     color: white;
+    font-size: 1.3rem;
   }
+
   .cta {
     display: inline-flex;   
     align-items: center;    
     justify-content: center;
-    padding: 1px 20px;
+    padding: 5px 20px;
     background-color: #f4ce14;
-
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.4;
     border-radius: 40px;
     color: #495e57;
     border: none;
@@ -59,19 +61,6 @@
     }
 } 
 
-.hero-image {
-  flex: 1 1 50%;
-  margin: auto;
-  box-shadow: 10px 5px 20px rgba(#f9f6f6, 0.4);
-  width: 350px;
-  justify-self: center;
-  height: 400px;
-  overflow: hidden;
-} 
-
-.text {
-  color: write;
-}
 
 @media screen and (max-width: 767px) {
   .hero-container {

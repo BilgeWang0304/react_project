@@ -2,17 +2,18 @@ import "./Header.scss";
 import Logo from "../images/lemonlogo.svg";
 import { Link } from "react-router-dom";
 
+
 const Header = ()=> {
-    const handleScroll = () => {
+    const handleClick = () => {
         const ele = document.querySelector("#about");
         if (ele) {
           ele.scrollIntoView({ behavior: "smooth" });
         }
     };
+
     return (
         <header>
-            <div className="header-container">
-                
+            <div className="header-container">               
                     <div className="logo">
                         <img src={Logo} alt="header-logo" height={70} />
                     </div>
@@ -22,7 +23,7 @@ const Header = ()=> {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/" onClick={handleScroll}>
+                            <Link to="/" onClick={handleClick}>
                             About
                             </Link>
                         </li>
