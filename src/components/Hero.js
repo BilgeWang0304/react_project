@@ -25,7 +25,7 @@ const Hero = () => {
                     <img src={Restaurant} alt="Restarurant enviroment" height={300} width={400} style={{
                         flex: '1 1 50%',
                         margin: 'auto',
-                        boxShadow: '10px 5px 10px rgba(#f9f6f6, 0.1)', 
+                        boxShadow: '10px 5px 10px rgba(0, 0, 0, 0.5)', 
                         justifySelf: 'center',
                         borderRadius: '20px',
                         overflow: 'hidden'

@@ -33,7 +33,6 @@ const About = () => {
             <img src={ourfood} alt="Our food" />
           </section>
         </div>
-    
     </section>
   );
 };
